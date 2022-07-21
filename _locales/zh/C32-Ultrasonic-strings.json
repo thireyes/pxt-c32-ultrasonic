@@ -1,0 +1,5 @@
+{
+    "ultrasonic.ping|block": "ping trig %trig|echo %echo|unit %unit",
+    "ultrasonic|block": "C32 超声波测距"
+  }
+  
