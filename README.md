@@ -1,6 +1,14 @@
-# pxt-c32-ultrasonic [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
+# pxt-c32-ultrasonic
+
+Based on [microsoft/pxt-sonar](https://github.com/microsoft/pxt-sonar).
 
 MakeCode extension for C32 Ultrasonic Distance module (Compatiable HC-SR04).
+
+## Wiring diagram of C32 ultrasonic distance module
+
+| ![C32 Ultrasonic Distance](https://github.com/thireyes/pxt-c32-ultrasonic/blob/master/icon.png "Connect C32 Ultrasonic Distance module and C203 microbit Shield") | 
+| :-------------------------------------------------------------------------------------------------------------------------------------: | 
+|                                _Connect C32 Ultrasonic Distance module and C203 microbit Shield_                                        |  
 
 ## Usage
 
