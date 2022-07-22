@@ -12,7 +12,7 @@ enum PingUnit {
 /**
  * ultrasonic and ping utilities
  */
-//% weight=10 color=#8FD1E1 icon="\uf09e" block="C32 Ultrasonic"
+//% weight=10 color=#5580A0 icon="\uf8dd" block="C32 Ultrasonic"
 
 namespace ultrasonic {
     /**
@@ -22,8 +22,7 @@ namespace ultrasonic {
      * @param unit desired conversion unit
      * @param maxCmDistance maximum distance in centimeters (default is 500)
      */
-    //% blockId=ultrasonic_ping
-    //% block = "ping trig %trig|echo %echo|unit %unit"
+    //% blockId=ultrasonic_ping block = "ping trig %trig|echo %echo|unit %unit"
     export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
