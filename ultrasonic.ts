@@ -12,7 +12,8 @@ enum PingUnit {
 /**
  * ultrasonic and ping utilities
  */
-//% color="#8FD1E1" weight=10 block="C32 Ultrasonic"
+//% weight=10 color=#8FD1E1 icon="\uf09e" block="C32 Ultrasonic"
+
 namespace ultrasonic {
     /**
      * Send a ping and get the echo time (in microseconds) as a result
