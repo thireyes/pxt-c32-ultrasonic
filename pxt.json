@@ -2,12 +2,13 @@
     "name": "C32-Ultrasonic",
     "Version": "v0.0.1",
     "description": "MakeCode extension for C32 Ultrasonic Distance module (Compatiable HC-SR04)",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "microphone": "*"
     },
     "files": [
-        "Ultrasonic.ts",
+        "ultrasonic.ts",
         "_locales/zh/C32-Ultrasonic-strings.json",
         "README.md"
     ],
