@@ -12,7 +12,7 @@ enum PingUnit {
 /**
  * ultrasonic and ping utilities
  */
-//% weight=10 color=#5580A0 icon="\uf8dd" block="C32 Ultrasonic"
+//% weight=10 color=#5580A0 icon="\uf07e" block="C32 Ultrasonic"
 
 namespace ultrasonic {
     /**
