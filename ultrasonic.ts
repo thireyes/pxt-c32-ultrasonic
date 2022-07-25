@@ -36,7 +36,7 @@ namespace ultrasonic {
         const d = pins.pulseIn(echo, PulseValue.High, maxCmDistance * 58);
 
         switch (unit) {
-            case PingUnit.Centimeters: return d/58;
+            case PingUnit.Centimeters: return d/58.0;
             case PingUnit.Inches: return Math.idiv(d, 148);
             default: return d ;
         }
