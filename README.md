@@ -1,6 +1,6 @@
-# pxt-c32-ultrasonic
+# C32 Ultrasonic Distance
 
-A MakeCode extension for C32 Ultrasonic Distance module (Compatiable HC-SR04), based on [microsoft/pxt-sonar](https://github.com/microsoft/pxt-sonar).
+A MakeCode extension for C32 Ultrasonic Distance module (Compatiable with HC-SR04), based on [microsoft/pxt-sonar](https://github.com/microsoft/pxt-sonar).
 
 ## Wiring diagram of C32 ultrasonic distance module
 
@@ -13,7 +13,7 @@ A MakeCode extension for C32 Ultrasonic Distance module (Compatiable HC-SR04), b
 This package contains a ``ping`` block that can return the distance to an obstacle detected by the sonar.
 
 ```sig
-ultrasonic.ping(DigitalPin.P15, DigitalPin.P14, PingUnit.Inches);
+ultrasonic.ping(DigitalPin.P15, DigitalPin.P14, PingUnit.Centimeters);
 ```
 
 ## Charting the distance
@@ -22,7 +22,7 @@ Use the ``plot bar graph`` block to visualize the distance reported by your sens
 
 ```blocks
 basic.forever(() => {
-    let p = ultrasonic.ping(DigitalPin.P15, DigitalPin.P14, PingUnit.Inches);
+    let p = ultrasonic.ping(DigitalPin.P15, DigitalPin.P14, PingUnit.Centimeters);
     led.plotBarGraph(p, 0);
 })
 ```
