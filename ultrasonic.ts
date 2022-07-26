@@ -37,7 +37,7 @@ namespace ultrasonic {
 
         switch (unit) {
             case PingUnit.Centimeters: return (Math.round((d/58)*10))/10;
-            case PingUnit.Inches: return Math.idiv(d, 148);
+            case PingUnit.Inches: return Math.round((d/148)*10)/10;
             default: return d ;
         }
     }
